@@ -9,7 +9,7 @@ type JourneyStep = {
 };
 
 type JourneyInfographicProps = {
-  steps: JourneyStep[];
+  steps?: JourneyStep[]; // Tornei opcional adicionando o '?'
   activeIndex: number;
   onSelectStep: (index: number) => void;
 };
