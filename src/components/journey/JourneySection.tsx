@@ -1,6 +1,7 @@
-import { MapIcon, ChartRadarIcon, SparklesIcon, UserGroupIcon, ArrowPathIcon } from './algum-arquivo-de-icones';
 import React, { useState, useEffect, useCallback } from 'react';
 import JourneyInfographic from './JourneyInfographic';
+
+// Removi a importação inválida
 
 const JourneySection: React.FC = () => {
   const [activeStep, setActiveStep] = useState(0);
@@ -123,7 +124,6 @@ const JourneySection: React.FC = () => {
         <JourneyInfographic 
           activeIndex={activeStep}
           onSelectStep={handleStepClick}
-            steps={[]} // O componente usará os passos padrão quando receber um array vazio
         />
         
         {/* Navegação manual */}
