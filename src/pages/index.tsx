@@ -3,7 +3,6 @@ import FlightPlanSection from '../components/flight-plan/FlightPlanSection';
 import { useEffect } from 'react';
 import Head from 'next/head';
 import dynamic from 'next/dynamic'; // ✅ Passo 1: importar dynamic
-
 import Layout from '../components/layout/Layout';
 import HeroSection from '../components/hero/HeroSection';
 import CrisisSection from '../components/crisis/CrisisSection';
@@ -62,6 +61,8 @@ export default function Home() {
           <CrisisSection />
           <PillarsSection />
           <MethodologySection />
+          <AssessmentSection />
+          <FlightPlanSection />      
           <JourneySection />
           <AboutSection />
           <QuestionnaireSection /> {/* ✅ Lazy loaded */}
