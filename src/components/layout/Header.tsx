@@ -56,10 +56,12 @@ const Header = () => {
         </Link>
 
         {/* Menu Desktop */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-6">
           <NavLink href="#crise">A Crise</NavLink>
           <NavLink href="#pilares">Os Pilares</NavLink>
           <NavLink href="#metodologia">Metodologia</NavLink>
+          <NavLink href="#avaliacao">Avaliação</NavLink>
+          <NavLink href="#plano-de-voo">Plano de Voo</NavLink>
           <NavLink href="#jornada">Jornada</NavLink>
           <NavLink href="#sobre">Sobre</NavLink>
           <button 
@@ -101,6 +103,8 @@ const Header = () => {
             <MobileNavLink href="#crise" onClick={() => setMenuOpen(false)}>A Crise</MobileNavLink>
             <MobileNavLink href="#pilares" onClick={() => setMenuOpen(false)}>Os Pilares</MobileNavLink>
             <MobileNavLink href="#metodologia" onClick={() => setMenuOpen(false)}>Metodologia</MobileNavLink>
+            <MobileNavLink href="#avaliacao" onClick={() => setMenuOpen(false)}>Avaliação</MobileNavLink>
+            <MobileNavLink href="#plano-de-voo" onClick={() => setMenuOpen(false)}>Plano de Voo</MobileNavLink>
             <MobileNavLink href="#jornada" onClick={() => setMenuOpen(false)}>Jornada</MobileNavLink>
             <MobileNavLink href="#sobre" onClick={() => setMenuOpen(false)}>Sobre</MobileNavLink>
             <button 
