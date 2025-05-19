@@ -1,3 +1,5 @@
+import AssessmentSection from '../components/assessment/AssessmentSection';
+import FlightPlanSection from '../components/flight-plan/FlightPlanSection';
 import { useEffect } from 'react';
 import Head from 'next/head';
 import dynamic from 'next/dynamic'; // ✅ Passo 1: importar dynamic
